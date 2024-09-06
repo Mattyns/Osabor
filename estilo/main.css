@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(3, 3, 3);
+    
+    
+}
+
+main {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: rgb(202, 37, 11);
+}
+
+
+#logo {
+    width: 100px;
+    padding-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+nav {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.559);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+nav > a > abbr > i {
+    
+    color: rgb(202, 37, 11);
+    display: flex;
+    font-size: 2em;
+    padding: 10px 0px;
+    margin: 0px 8vw;
+}
+
+nav > a > abbr > i:hover {
+    transition-duration: .8s;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    
+}
+
+
+
+
+
+#imgperfil {
+    
+    width: 100vw;
+    
+}
+
+#perfil > h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: relative;
+    text-align: center;
+    top: -50vw;
+    font-size: 8vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 20px;
+}
+
+#perfil > p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: relative;
+    text-align: center;
+    top: -50vw;
+    font-size: 5vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 5px;
+}
+
+#quemsomos {
+    position: relative;
+    top: -90px;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+#tituloquemsomos {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    
+   
+}
+
+#barber {
+    width: 100%;
+    height: 45%;
+    
+    
+}
+
+#textquemsomos {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+
+}
+
+#barberspartaqs {
+    color: rgb(202, 37, 11);
+}
+
+
+#servicos {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    top: -40px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+ 
+#servicos > h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    background-color: rgba(202, 36, 11, 0.886);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+#cabelo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#cortecabelo > h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+#cafe {
+    padding: 20px;
+    display: none;
+}
+
+#cortecabelo > p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+#nossasredes {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    top: -40px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+ 
+#nossasredes > h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    
+}
+
+#redes {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#redes > a > img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 20px;
+    margin: 4vw;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.378);
+}
+
+#redes > a > img:hover {
+    width: 16vw;
+    height: 16vw;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.713);
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+#matheus {
+    color: brown;
+    font-weight: bold;
+}
