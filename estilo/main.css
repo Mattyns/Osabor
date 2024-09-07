@@ -171,6 +171,7 @@ nav > a > abbr > i:hover {
     transform: translate(-50%);
     border: 2px solid black;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #cortecabelo > h2 {
@@ -179,8 +180,23 @@ nav > a > abbr > i:hover {
 }
 
 #cafe {
-    padding: 20px;
+    margin-left:20px;
     display: none;
+    padding-bottom: 20px;
+}
+
+#alm {
+    margin-left:20px;
+    display: none;
+    padding-bottom: 20px;
+    
+}
+
+#jantar {
+    margin-left:20px;
+    display: none;
+    padding-bottom: 20px;
+    
 }
 
 #cortecabelo > p {
@@ -192,7 +208,7 @@ nav > a > abbr > i:hover {
 #nossasredes {
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(202, 37, 11);
     width: 95%;
     top: -40px;
     margin: auto;
@@ -207,17 +223,18 @@ nav > a > abbr > i:hover {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     
+    
 }
 
 #redes {
-    background-color: white;
+    background-color:rgb(202, 37, 11);
     border-radius: 10px;
 }
 
 #redes > a > img {
     width: 15vw;
     height: 15vw;
-    border-radius: 20px;
+    border-radius: 50px;
     margin: 4vw;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.378);
 }
